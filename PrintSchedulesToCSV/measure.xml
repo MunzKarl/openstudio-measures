@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<measure>
+  <schema_version>3.0</schema_version>
+  <name>print_schedules_to_csv</name>
+  <uid>259dc35f-65e8-47d4-913f-69efede5a267</uid>
+  <version_id>ac18c609-bddd-4bbf-9603-ca181da89aa5</version_id>
+  <version_modified>20240307T190704Z</version_modified>
+  <xml_checksum>2C38F48B</xml_checksum>
+  <class_name>PrintSchedulesToCSV</class_name>
+  <display_name>PrintSchedulesToCSV</display_name>
+  <description>Exports all schedules in the model to a CSV file with their names and handles.</description>
+  <modeler_description>This measure iterates through all schedules in the model and outputs their handles and display names to a CSV file.</modeler_description>
+  <arguments />
+  <outputs />
+  <provenances />
+  <tags>
+    <tag>Whole Building.Space Types</tag>
+  </tags>
+  <attributes>
+    <attribute>
+      <name>Measure Type</name>
+      <value>ModelMeasure</value>
+      <datatype>string</datatype>
+    </attribute>
+  </attributes>
+  <files>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.9.1</identifier>
+        <min_compatible>2.9.1</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>6CAB5788</checksum>
+    </file>
+  </files>
+</measure>
